@@ -1,0 +1,119 @@
+
+
+body 
+{
+
+   margin: 0;
+
+}
+
+header 
+{
+
+   background: black;
+   color: white;
+   padding: 10px 0px 0px 30px;
+   height: 50px;
+}
+
+header h1 
+{
+    
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+nav ul 
+{
+
+	display: inline;
+	padding: 0px;
+	float: left;
+
+}
+
+nav ul li 
+{
+	display:inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 50px;
+}
+
+nav ul li a 
+{
+
+	color: white;
+	text-decoration: none;
+}
+
+#nav 
+{
+	font-family:'Montserrat',sans-serif;
+}
+
+.home:hover 
+{
+	background-color: blue;
+	padding: 22px 5px 15px 10px;
+}
+
+
+.slika1 
+{
+
+    background-image: url(slika1.jpg);
+    width:100%;
+    height:250%;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+
+img 
+{
+
+    display:block;
+    margin-left:150px;
+	width: 1200px;
+	height: 550px;
+
+}
+
+#footer 
+{
+
+
+	text-align:center;
+	color:black;
+	font-size:1.85em;
+}
+
+#bio {
+
+      text-align:center;
+      
+}
+
+h3 
+{
+
+position:absolute;
+
+left:50%;
+top:50%;
+transform:translateX(-50%) translateY(-50%);
+text-align:center;
+font-family: Pacifico, Calibri;
+font-size:4em;
+
+
+
+}
